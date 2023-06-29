@@ -31,14 +31,14 @@ let embeddingOptions =
     let embeddingClient = createClient "AOAI-ENDPOINT" "AOAI-KEY"
     embeddingconfig {
         use_client embeddingClient
-        use_model "embeddings-ada-002"
+        use_model "EMBEDDING-MODEL"
     }
 
 let completionOptions = 
     let gptClient = createClient "AOAI-ENDPOINT" "AOAI-KEY" 
     gptoptions {
         use_client gptClient
-        use_model "davinci"
+        use_model "GPT-MODEL"
     }
 
 // Define function to run RAG pattern

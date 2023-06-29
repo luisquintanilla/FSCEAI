@@ -34,7 +34,7 @@ let c = createClient "AOAI-ENDPOINT" "AOAI-KEY"
 let cc = 
     gptoptions {
         use_client c
-        use_model "davinci"
+        use_model "GPT-MODEL"
     }
 
 // Embeddings client & options
@@ -43,7 +43,7 @@ let e = createClient "AOAI-ENDPOINT" "AOAI-KEY"
 let ec = 
     embeddingconfig {
         use_client e
-        use_model "embeddings-ada-002"
+        use_model "EMBEDDING-MODEL"
     }
 
 // 3. Data - load your data

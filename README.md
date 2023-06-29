@@ -19,10 +19,12 @@ The data used in this sample is a subset from the following [dataset](https://hu
 
 ## Run
 
-1. Get your Azure OpenAI Service endpoint and key values and replace them in the `RAGBuild.fsx` and `RAGConsume.fsx` scripts.
+1. Get your Azure OpenAI Service endpoint, model, and key values and replace them in the `RAGBuild.fsx` and `RAGConsume.fsx` scripts.
 
     - **AOAI-ENDPOINT** - Replace with your Azure OpenAI endpoint value
     - **AOAI-KEY** - Replace with your Azure OpenAI key credential value
+    - **GPT-MODEL** - Replace with the name (deployment ID) of your GPT model
+    - **EMBEDDING-MODEL** - Replace with the name (deployment ID) of your embedding model
 
 1. In the terminal, use the .NET CLI to run the following command.
 
